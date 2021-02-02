@@ -38,9 +38,9 @@ class ViewController: UIViewController {
     }
     
     func gestures() {
-        let press = UILongPressGestureRecognizer(target: self, action: #selector(executePress))
+        let press = UILongPressGestureRecognizer(target: self, action: #selector(callToPolice))
         press.minimumPressDuration = 3.0
-        let tap = UITapGestureRecognizer(target: self, action: #selector(executeTap))
+        let tap = UITapGestureRecognizer(target: self, action: #selector(callToFriend))
         tap.numberOfTapsRequired = 3
 
         view.addGestureRecognizer(press)
