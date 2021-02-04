@@ -14,7 +14,7 @@ struct Card: Identifiable {
     var description: String
 }
 
-var testData: [Card] = [
+var allCards: [Card] = [
     Card(id: 1, image: "img1", title: "Só você verá estas instruções", description: "Para sua segurança, esses procedimentos só serão feitos uma única vez. Prossiga com atenção."),
     Card(id: 2, image: "img2", title: "Peça ajuda rapidamente", description: "Em situações de emergência, você poderá pedir por ajuda de forma imediata. Observe se seu celular está desbloqueado."),
     Card(id: 3, image: "img3", title: "Dois cliques", description: "Com dois taps seguidos e rápidos, em qualquer lugar da tela, você será capaz de ligar para a pessoa de sua confiança imediatamente."),

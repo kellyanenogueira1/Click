@@ -8,7 +8,7 @@
 import UIKit
 import SwiftUI
 
-class ViewController: UIViewController {
+class MainViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -31,10 +31,12 @@ class ViewController: UIViewController {
     
     @objc func callToFriend(recognizer: UITapGestureRecognizer) {
         print("triple tap")
+        //
     }
     
     @objc func callToPolice(recognizer: UILongPressGestureRecognizer) {
         print("press")
+        //
     }
     
     func gestures() {

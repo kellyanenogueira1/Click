@@ -12,8 +12,8 @@ struct ContentView: View {
     
     var body: some View {
         TabView(selection: $selectedPage) {
-            ForEach(0..<testData.count) { index in
-                CardView(card: testData[index]).tag(index)
+            ForEach(0..<allCards.count) { index in
+                CardView(card: allCards[index]).tag(index)
             }
         }
         .tabViewStyle(PageTabViewStyle(indexDisplayMode: .automatic))
